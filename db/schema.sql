@@ -1,3 +1,4 @@
+
 CREATE DATABASE bazzny0d60g4149x;
 USE bazzny0d60g4149x;
 
