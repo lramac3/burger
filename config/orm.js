@@ -72,7 +72,7 @@ let orm = {
         });
     },
 
-    // An example of objColVals would be {visited: true, liked: true}
+    // An example of objColVals would be {ate: true, liked: true}
     updateOne: function (table, objColVals, condition, cb) {
         let queryString = "UPDATE " + table;
 
