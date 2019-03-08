@@ -7,7 +7,7 @@ $(function () {
 
         //create object with new values
         var newBurgerState = {
-            visited: true,
+            ate: true,
             liked: true
         };
 
@@ -28,7 +28,7 @@ $(function () {
 
         //create object with new values
         var newBurgerState = {
-            visited: true,
+            ate: true,
             liked: false
         };
 

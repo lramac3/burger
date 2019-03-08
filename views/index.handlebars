@@ -27,7 +27,7 @@
                 <div class="col-md-11 text-center card card-burgers" id="liked-burgers">
                     <h1><i class="fa fa-thumbs-up"></i></h1>
                     {{#each burgers}}
-                    {{#if visited}}
+                    {{#if ate}}
                     {{#if liked}}
                     {{> burgers/liked-block}}
                     {{/if}}
@@ -40,7 +40,7 @@
         <div class="col-md-4 text-center card card-burgers" id="new-burgers">
             <h2>Wanna Try</h2>
             {{#each burgers}}
-            {{#unless visited}}
+            {{#unless ate}}
             {{> burgers/new-block}}
             {{/unless}}
             {{/each}}
@@ -53,7 +53,7 @@
                 <div class="col-md-11 text-center card card-burgers" id="disliked-burgers">
                     <h1><i class="fa fa-thumbs-down"></i></h1>
                     {{#each burgers}}
-                    {{#if visited}}
+                    {{#if ate}}
                     {{#unless liked}}
                     {{> burgers/disliked-block}}
                     {{/unless}}
