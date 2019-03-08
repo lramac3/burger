@@ -1,0 +1,73 @@
+body {
+    background: url(../img/burger_bg.jpg) no-repeat center center fixed;
+}
+
+.header{
+    text-align:center;
+    padding-top:30px;
+    font-size:80px;
+    font-weight:bolder;
+    color:black;
+    font-family:cursive;
+    text-shadow:0px 0px 5px white;
+}
+
+.small-header {
+    text-align:center;
+    padding-bottom:30px;
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+    font-family:cursive;
+    text-shadow:0px 0px 5px white;
+}
+
+#add-burger{
+    background:black;
+    opacity:0.75;
+    color:white;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom:10px;
+}
+#submit-burger{
+    background:black;
+    color:white;
+    box-shadow:0px 0px 20px white;
+    margin-top:10px;
+    font-size:25px;
+    font-family:cursive;
+}
+
+.burger-each{
+    padding:15px;
+    background:black;
+    color:white;
+    font-size:25px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.delburger{
+    float:right;
+    background:rgb(166, 221, 245);
+}
+
+.disliked{
+    float:right;
+    background: red;
+}
+
+.liked {
+    float:left;
+    background:green;
+}
+
+.card-burgers{
+    background:rgb(206, 202, 202);
+    opacity:0.75;
+    padding-top:20px;
+    padding-bottom:20px;
+    box-shadow:0px 0px 10px black;
+    font-family:cursive;
+}
