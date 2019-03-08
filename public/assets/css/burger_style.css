@@ -1,5 +1,11 @@
 body {
-    background: url(../img/burger_bg.jpg) no-repeat center center fixed;
+    background: url(../img/burger_bg.jpg) center fixed;
+    /* Full height */
+    height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
     background-size: cover;
 }
 
