@@ -38,7 +38,7 @@ router.put("/api/burgers/:id", function (req, res) {
     console.log("condition", condition);
 
     burger.update({
-        visited: req.body.visited,
+        ate: req.body.ate,
         liked: req.body.liked
     }, condition, function (result) {
         if (result.changedRows == 0) {
