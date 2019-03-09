@@ -3,10 +3,10 @@ $(function () {
 
     //on click of like button send a PUT request
     $(".liked").on("click", function (event) {
-        var id = $(this).data("id");
+        let id = $(this).data("id");
 
         //create object with new values
-        var newBurgerState = {
+        let newBurgerState = {
             ate: true,
             liked: true
         };
@@ -24,10 +24,10 @@ $(function () {
 
     //on click of dislike button send a PUT request
     $(".disliked").on("click", function (event) {
-        var id = $(this).data("id");
+        let id = $(this).data("id");
 
         //create object with new values
-        var newBurgerState = {
+        let newBurgerState = {
             ate: true,
             liked: false
         };
@@ -45,7 +45,7 @@ $(function () {
 
     //on click of delete button send a DELETE request
     $(".delburger").on("click", function () {
-        var id = $(this).data("id");
+        let id = $(this).data("id");
 
         // Send the DELETE request with id in query parameter
         $.ajax("/api/burgers/" + id, {
@@ -62,7 +62,7 @@ $(function () {
         event.preventDefault();
 
         //get name of the burger from textbox
-        var name = $("#burger-name").val().trim();
+        let name = $("#burger-name").val().trim();
 
         // Send the POST request with values in request body
         $.ajax("/api/burgers", {
