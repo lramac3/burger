@@ -49,7 +49,10 @@ body {
 font-size:48px;
 color:red;
 }
-
+#liked-burgers{
+font-size:48px;
+color:green;
+}
 .burger-each{
     padding:15px;
     background:black;
