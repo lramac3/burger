@@ -45,6 +45,10 @@ body {
     font-size:25px;
     font-family:'Poppins', sans-serif;;
 }
+.fa fa-thumbs-down{
+font-size:48px;
+color:red;
+}
 
 .burger-each{
     padding:15px;
