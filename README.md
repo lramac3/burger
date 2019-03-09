@@ -51,15 +51,15 @@
 ├── server.js
 │
 └── views
-    ├── index.handlebars
-    └── layouts
-        └── main.handlebars
-    └── partials
-        └── burgers
-            └── disliked-block.handlebars
-            └── liked-block.handlebars
-            └── new-block.handlebars
-             
+|   ├── index.handlebars
+|   └── layouts
+|   |    └── main.handlebars
+|   └── partials
+|       └── burgers
+|           └── disliked-block.handlebars
+|           └── liked-block.handlebars
+|           └── new-block.handlebars
+|             
 ```
 
 ## Technologies Used
