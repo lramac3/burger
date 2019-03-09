@@ -1,7 +1,7 @@
 # Burger
 
 ## Overview
-- A burger logger with MySQL, Node, Express, Handlebars and ORM. Following the MVC design pattern and using Node and MySQL to query and route data in the app, and Handlebars to generate HTML.
+- A burger logger app built using MySQL, Node, Express, Handlebars and ORM. Following the MVC design pattern and using Node and MySQL to query and route data in the app, and Handlebars to generate HTML.
    
 ## Live Site
 - https://eat-da-burger-edb.herokuapp.com/
@@ -44,15 +44,22 @@
 │       ├── css
 │       │   └── burger_style.css
 │       └── img
-│           └── burger_theme.png
-│   
-│
+│       │   └── burger_theme.png
+        ├── js
+│           └── burgers.js 
+|
 ├── server.js
 │
 └── views
     ├── index.handlebars
     └── layouts
         └── main.handlebars
+    └── partials
+        └── burgers
+            └── disliked-block.handlebars
+            └── liked-block.handlebars
+            └── new-block.handlebars
+             
 ```
 
 ## Technologies Used
