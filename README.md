@@ -56,7 +56,7 @@
 |   |    └── main.handlebars
 |   └── partials
 |   |    └── burgers
-|   |      └── disliked-block.handlebars
+|   |        └── disliked-block.handlebars
 |   |        └── liked-block.handlebars
 |   |        └── new-block.handlebars
 |   |          
