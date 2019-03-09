@@ -1,7 +1,7 @@
 # Burger
 
 ## Overview
-- A burger logger app built using MySQL, Node, Express, Handlebars and ORM. Following the MVC design pattern and using Node and MySQL to query and route data in the app, and Handlebars to generate HTML.
+A burger logger app built using MySQL, Node, Express, Handlebars and ORM. Following the MVC design pattern and using Node and MySQL to query and route data in the app, and Handlebars to generate HTML.
    
 ## Live Site
 https://eat-da-burger-edb.herokuapp.com/
