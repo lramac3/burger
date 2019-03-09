@@ -15,7 +15,7 @@ body {
     font-size:80px;
     font-weight:bolder;
     color:black;
-    font-family:cursive;
+    font-family:'Poppins', sans-serif;;
     text-shadow:0px 0px 5px white;
 }
 
@@ -25,7 +25,7 @@ body {
     font-size:30px;
     font-weight:bold;
     color:black;
-    font-family:cursive;
+    font-family:'Poppins', sans-serif;;
     text-shadow:0px 0px 5px white;
 }
 
@@ -43,7 +43,7 @@ body {
     box-shadow:0px 0px 20px white;
     margin-top:10px;
     font-size:25px;
-    font-family:cursive;
+    font-family:'Poppins', sans-serif;;
 }
 
 .burger-each{
@@ -76,5 +76,5 @@ body {
     padding-top:20px;
     padding-bottom:20px;
     box-shadow:0px 0px 10px black;
-    font-family:cursive;
+    font-family:'Poppins', sans-serif;;
 }
