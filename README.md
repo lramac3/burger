@@ -55,11 +55,11 @@
 |   └── layouts
 |   |    └── main.handlebars
 |   └── partials
-|       └── burgers
-|           └── disliked-block.handlebars
-|           └── liked-block.handlebars
-|           └── new-block.handlebars
-|             
+|   |    └── burgers
+|   |      └── disliked-block.handlebars
+|   |        └── liked-block.handlebars
+|   |        └── new-block.handlebars
+|   |          
 ```
 
 ## Technologies Used
